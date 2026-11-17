@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BOTFORGE creates custom Discord bots for gaming communities and servers.">
+  <title>BOTFORGE | Custom Discord Bots</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263449;
+    }
+
+    .logo {
+      color: #7dd3fc;
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #7dd3fc;
+    }
+
+    section {
+      padding: 75px 8%;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 110px;
+      padding-bottom: 110px;
+    }
+
+    .tag {
+      color: #7dd3fc;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 65px);
+      line-height: 1.1;
+      margin: 20px 0;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #7dd3fc;
+    }
+
+    .intro {
+      color: #aab8ca;
+      max-width: 600px;
+      margin: 0 auto 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #38bdf8;
+      color: #082032;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #7dd3fc;
+    }
+
+    .section-text {
+      color: #aab8ca;
+      max-width: 650px;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #141f32;
+      border: 1px solid #263449;
+      border-radius: 12px;
+      padding: 23px;
+    }
+
+    .card h3 {
+      color: #7dd3fc;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #aab8ca;
+      font-size: 14px;
+    }
+
+    .price {
+      font-size: 27px;
+      font-weight: bold;
+      margin: 12px 0;
+    }
+
+    .note {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 14px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #111c2e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+      font-size: 13px;
+      border-top: 1px solid #263449;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      section {
+        padding: 55px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">BOTFORGE</div>
+
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p class="tag">INDEPENDENT DISCORD BOT DEVELOPER</p>
+
+    <h1>Your server.<br><span class="highlight">Your ideas. My code.</span></h1>
+
+    <p class="intro">
+      I build custom Discord bots for gaming communities,
+      small servers and online communities.
+      Simple solutions, tailored to your needs.
+    </p>
+
+    <a class="button" href="#contact">Let's work together</a>
+  </section>
+
+  <section id="services">
+    <h2>What I can build</h2>
+
+    <p class="section-text">
+      Need something to make your Discord server easier
+      to manage? Here are some of the systems I can create.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>🎫 Ticket Systems</h3>
+        <p>Organize support requests with private ticket channels.</p>
+      </div>
+
+      <div class="card">
+        <h3>👋 Welcome Bots</h3>
+        <p>Welcome new members with custom messages and embeds.</p>
+      </div>
+
+      <div class="card">
+        <h3>🛡️ Moderation Bots</h3>
+        <p>Useful moderation commands and server management tools.</p>
+      </div>
+
+      <div class="card">
+        <h3>🏆 Tournament Bots</h3>
+        <p>Manage registrations, participants, scores and leaderboards.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My projects</h2>
+
+    <p class="section-text">
+      Here are some projects I am developing to demonstrate
+      my skills. More demos will be added as they are completed.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>TOURNEYBOT</h3>
+        <p>
+          A tournament management bot with player registration,
+          score tracking and leaderboards.
+        </p>
+        <p class="note">Status: Development demo</p>
+      </div>
+
+      <div class="card">
+        <h3>SUPPORTBOT</h3>
+        <p>
+          A ticket system concept for communities that need
+          an organized support process.
+        </p>
+        <p class="note">Status: Planned demo</p>
+      </div>
+
+      <div class="card">
+        <h3>WELCOME BOT</h3>
+        <p>
+          A customizable welcome system for new server members.
+        </p>
+        <p class="note">Status: Planned demo</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Simple starting prices</h2>
+
+    <p class="section-text">
+      Every project is different. These are starting prices,
+      and the final quote depends on the requested features.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Basic</h3>
+        <div class="price">€15+</div>
+        <p>Small bots with simple features.</p>
+      </div>
+
+      <div class="card">
+        <h3>Standard</h3>
+        <div class="price">€30+</div>
+        <p>Multiple commands and custom server features.</p>
+      </div>
+
+      <div class="card">
+        <h3>Custom</h3>
+        <div class="price">€50+</div>
+        <p>More complex projects built around your ideas.</p>
+      </div>
+    </div>
+
+    <p class="note">
+      Hosting and ongoing maintenance are not included unless agreed.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Have an idea for a bot?</h2>
+
+    <p class="section-text" style="margin-left:auto;margin-right:auto">
+      Tell me what you need, and I'll let you know
+      whether I can build it and provide a quote.
+      No calls required.
+    </p>
+
+    <!-- Replace this placeholder with your public contact link. -->
+    <a class="button" href="https://discord.com/users/mkl_2011">
+      Contact me on Discord
+    </a>
+
+    <p class="note">Replace YOUR_USER_ID with your Discord user ID.</p>
+  </section>
+
+  <footer>
+    © 2026 BOTFORGE. Independent developer project.
+  </footer>
+
+</body>
+</html>
